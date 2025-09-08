@@ -1,5 +1,5 @@
 CC=arm-none-eabi-gcc
-CFLAGS=-mcpu=cortex-m3 -mthumb -Wall -Wextra -O0
+CFLAGS  ?= -mcpu=cortex-m3 -mthumb -g -O0 -Wall
 
 all: firmware.bin
 
